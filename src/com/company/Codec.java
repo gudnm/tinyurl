@@ -4,7 +4,7 @@ public class Codec {
     private static final String DOMAIN = "https://tinyurl.com";
     private static final String DELIMITER = "/";
 
-    private IncrementalUrlStore store = new IncrementalUrlStore();
+    private UrlStoreInterface store = new IncrementalUrlStore();
 
     // Encodes a URL to a shortened URL
     public String encode(String longUrl) {

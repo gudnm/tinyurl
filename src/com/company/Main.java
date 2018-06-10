@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] argv) {
 
         String[] urls = {"booking.com", "office.booking.com"};
         List<String> encodedUrls = new ArrayList<>();
